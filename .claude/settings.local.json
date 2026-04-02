@@ -4,7 +4,8 @@
       "WebSearch",
       "Bash(mkdir -p /Users/arturo/Development/chiart/components)",
       "Bash(mkdir -p /Users/arturo/Development/chiart/public/photos)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "WebFetch(domain:pub-79ab326bcf584c6a956be2be431c6cfb.r2.dev)"
     ]
   }
 }

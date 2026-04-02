@@ -14,13 +14,13 @@ export default function Home() {
       <HeroSection />
 
       {/* Photo 1 — full width parallax */}
-      <ParallaxPhoto src={`${R2}/photo-1.jpg`} caption="Where it all began" />
+      <ParallaxPhoto src={`${R2}/adventuesTogether1.JPG`} caption="Where it all began" />
 
       {/* Photos 2 & 3 — side by side */}
       <PhotoPair
         photos={[
-          { src: `${R2}/photo-2.jpg`, caption: 'That look' },
-          { src: `${R2}/photo-3.jpg`, caption: 'That smile' },
+          { src: `${R2}/thatLook.JPG`, caption: 'That look' },
+          { src: `${R2}/thatSmile.JPG`, caption: 'That smile' },
         ]}
       />
 
@@ -38,14 +38,14 @@ export default function Home() {
       />
 
       {/* Photo 4 — full width parallax */}
-      <ParallaxPhoto src={`${R2}/photo-4.jpg`} caption="Adventures together" />
+      <ParallaxPhoto src={`${R2}/adventuresTogether2.JPG`} caption="Adventures together" />
 
       {/* Photos 5, 6, 7 — scattered grid */}
       <PhotoGrid
         photos={[
-          { src: `${R2}/photo-5.jpg`, caption: 'Morning light' },
-          { src: `${R2}/photo-6.jpg`, caption: 'Lazy afternoons' },
-          { src: `${R2}/photo-7.jpg`, caption: 'Late nights' },
+          { src: `${R2}/pic1.JPG`, caption: 'Loud days' },
+          { src: `${R2}/pic2.JPG`, caption: 'Lazy afternoons' },
+          { src: `${R2}/pic3.JPG`, caption: 'Late nights' },
         ]}
       />
 
@@ -61,14 +61,14 @@ export default function Home() {
       {/* Photos 8 & 9 — side by side */}
       <PhotoPair
         photos={[
-          { src: `${R2}/photo-8.jpg`, caption: 'You and me' },
-          { src: `${R2}/photo-9.jpg`, caption: 'Always' },
+          { src: `${R2}/you%20AndMe.JPG`, caption: 'You and me' },
+          { src: `${R2}/always.JPG`, caption: 'Always' },
         ]}
       />
 
       {/* Photos 10 & 11 — full width parallax */}
-      <ParallaxPhoto src={`${R2}/photo-10.jpg`} caption="My favorite place is next to you" />
-      <ParallaxPhoto src={`${R2}/photo-11.jpg`} caption="Forever and always" />
+      <ParallaxPhoto src={`${R2}/myFavPlaceIsNextToYou.JPG`} caption="My favorite place is next to you" />
+      <ParallaxPhoto src={`${R2}/foreverAndAlways.JPG`} caption="Forever and always" />
 
       {/* Poem 3 + Closing */}
       <PoemReveal

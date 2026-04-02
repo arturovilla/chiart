@@ -57,7 +57,7 @@ export default function HeroSection() {
         For Chiamaka
       </h1>
       <p className="hero-subtitle mt-6 max-w-md text-lg text-muted sm:text-xl">
-        A little collection of us — our moments, our words, our story.
+        A little collection of us, our moments, our words, our story.
       </p>
       <p className="hero-date mt-4 font-serif text-sm tracking-widest text-accent uppercase">
         Our Anniversary
